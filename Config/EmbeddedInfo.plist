@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Jev Notch listens only while you hold Command so it can transcribe your spoken command.</string>
+  <key>NSSpeechRecognitionUsageDescription</key>
+  <string>Jev Notch uses on-device macOS speech recognition to turn your held-Command voice input into a tool request.</string>
+  <key>NSCalendarsFullAccessUsageDescription</key><string>Jev Notch reads and creates calendar events only when Jev selects a calendar tool you requested.</string>
+  <key>NSRemindersFullAccessUsageDescription</key><string>Jev Notch reads and creates reminders only when Jev selects a reminder tool you requested.</string>
+  <key>NSContactsUsageDescription</key><string>Jev Notch searches contacts to resolve people explicitly named in your request.</string>
+  <key>NSAppleEventsUsageDescription</key><string>Jev Notch controls supported Mac apps only after Jev selects the requested action.</string>
+  <key>NSAppTransportSecurity</key><dict><key>NSAllowsLocalNetworking</key><true/></dict>
+</dict></plist>

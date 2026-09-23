@@ -1,0 +1,13 @@
+.DS_Store
+.build/
+.swiftpm/
+node_modules/
+dist/
+Resources/Web/
+work/
+outputs/*.app/
+*.log
+.env
+.env.*
+*.onnx
+*.onnx.json

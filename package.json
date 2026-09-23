@@ -1,0 +1,27 @@
+{
+  "name": "jev-notch",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build:web": "vite build",
+    "build": "./scripts/build-app.sh",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "border-beam": "latest",
+    "img-fx": "latest",
+    "liquid-gooey": "latest",
+    "metal-fx": "latest",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "thinking-orbs": "latest",
+    "three": "latest",
+    "voice-glow": "latest"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  }
+}
